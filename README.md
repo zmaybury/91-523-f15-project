@@ -12,3 +12,5 @@ This project consists of 3 important pieces of code.
   
 3. createLastTwoLayerTuningCNNFiles.pl
   This perl script creates the files necessary for, and then trains, a fine-tuned convolution neural network, with only the last two layers fine-tuned, for the given command line parameters
+
+This project also contains 2 CNNs and their associated files required to run in production. Both CNNs use the imagenet mean image. The first CNN, "Combined CNN," classifies images as either bird, flower, or person. The second CNN, "Bird CNN," Is trained on the CUB-200 2011 dataset and classifies pictures of birds into species sub-classes.
